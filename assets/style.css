@@ -1,0 +1,24 @@
+.navbar{
+	margin-bottom: 20px;
+}
+
+.note{
+	display: inline-table;
+	width: 18rem;
+	height: 14rem;
+	margin: 10px;
+	padding: 25px;
+	background-color: #acac;
+	border-radius: 5px;
+	color: #5F725F;
+}
+
+.note a{
+	/*color: #5F725F;*/
+}
+
+.add-note{
+	display: inline-table;
+	width: 255px;
+	height: 200px;
+}
