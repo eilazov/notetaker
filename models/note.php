@@ -16,7 +16,7 @@ class NoteModel extends Model{
 		if ($single) {
 			return $single;
 		} else {
-			header('Location:'. ROOT_URL .'notes/index');
+			header('Location:'. ROOT_URL);
 		}
 		
 	}
@@ -37,7 +37,7 @@ class NoteModel extends Model{
 			$this->execute();
 
 			if ($this->lastInsertId()) {
-				header('Location:'. ROOT_URL .'notes/index');
+				header('Location:'. ROOT_URL);
 				return;
 			}
 		}
@@ -60,7 +60,7 @@ class NoteModel extends Model{
 			$this->execute();
 
 			if ($this->lastUpdateId()) {
-				header('Location:'. ROOT_URL .'notes/index');
+				header('Location:'. ROOT_URL);
 				return;
 			} else {
 				echo 'change something';
@@ -79,7 +79,7 @@ class NoteModel extends Model{
 			$this->execute();
 
 			if ($this->lastUpdateId()) {
-				header('Location:'. ROOT_URL .'notes/index');
+				header('Location:'. ROOT_URL);
 				return;
 			}
 		}

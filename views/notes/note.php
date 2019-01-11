@@ -14,7 +14,7 @@
 			</div>			
 			<input type="submit" name="update" class="btn btn-primary" value="Update">
 			<input type="submit" name="delete" class="btn btn-danger" value="Delete">
-			<a class="btn btn-danger" href="<?php echo ROOT_PATH; ?>notes/index">Cancel</a>
+			<a class="btn btn-danger" href="<?php echo ROOT_PATH; ?>">Cancel</a>
 		</form>
 	</div>
 </div>
