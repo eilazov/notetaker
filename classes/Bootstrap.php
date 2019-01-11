@@ -9,21 +9,23 @@ class Bootstrap{
 		$this->request = $request;
 
 		if($this->request['controller'] == ""){
+			$this->controller = 'users';
+
 			if (isset($_SESSION['is_logged_in'])) {
 				$this->controller = 'notes';
-			} else {
-				$this->controller = 'users';
 			}
+
 		} else {
 			$this->controller = $this->request['controller'];
 		}
 
 		if($this->request['action'] == ""){
+			$this->action = 'login';
+
 			if (isset($_SESSION['is_logged_in'])) {
-				$this->controller = 'index';
-			} else {
-				$this->action = 'login';
+				$this->action = 'index';
 			}
+
 		} else {
 			$this->action = $this->request['action'];
 		}
