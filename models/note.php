@@ -1,5 +1,4 @@
-<?php  
-
+<?php
 class NoteModel extends Model{
 	public function index(){
 		$this->query('SELECT * FROM notes WHERE `user_id` = :user_id ORDER BY `date` DESC');
@@ -85,5 +84,4 @@ class NoteModel extends Model{
 		}
 	}
 }
-
 ?>

@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 class Bootstrap{
 	private $controller;
 	private $action;
@@ -51,5 +50,4 @@ class Bootstrap{
 		}
 	}
 }
-
 ?>

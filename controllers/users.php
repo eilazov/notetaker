@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 class Users extends Controller{
 	protected function register(){
 		$viewmodel = new UserModel();
@@ -18,5 +17,4 @@ class Users extends Controller{
 		header('Location: '. ROOT_URL);
 	}
 }
-
 ?>

@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 abstract class Controller{
 	protected $request;
 	protected $action;
@@ -23,5 +22,4 @@ abstract class Controller{
 	}
 
 }
-
 ?>

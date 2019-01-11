@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 abstract class Model{
 	protected $conn;
 	protected $stmt;
@@ -42,5 +41,4 @@ abstract class Model{
 		return $this->stmt->fetch(PDO::FETCH_ASSOC);
 	}
 }
-
 ?>

@@ -1,5 +1,4 @@
-<?php  
-
+<?php
 class UserModel extends Model{
 	public function register(){
 		$post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING); 
@@ -53,5 +52,4 @@ class UserModel extends Model{
 
 	}
 }
-
 ?>

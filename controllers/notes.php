@@ -1,5 +1,4 @@
-<?php  
-
+<?php
 class Notes extends Controller{
 	protected function index(){
 		if (!isset($_SESSION['is_logged_in'])) {
@@ -34,5 +33,4 @@ class Notes extends Controller{
 		}
 	}
 }
-
 ?>
